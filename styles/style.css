@@ -9,10 +9,19 @@ input[type=number] {
     -moz-appearance:textfield;
 }
 
-td {
-  padding-left: 100px;
-  padding-top: 5px;
+h1{
+  text-align: center;
 }
+
+div{
+  border: solid black;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 10px;
+  width: 430px;
+  padding: 10px;
+}
+
 
 .input{
   width: 190px;
@@ -23,4 +32,13 @@ td {
 .smallIn{
   width: 70px;
   text-align: left;
+}
+
+#timesAn{
+  width: 30px;
+}
+
+#calcBtn{
+  margin-left: 150px;
+  
 }
