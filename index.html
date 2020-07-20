@@ -6,31 +6,34 @@
     <meta charset="utf-8">
     <title>Compound Interest Calculator</title>
     <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="images/icon.png" />
+
 
   </head>
-  <body>     
-    <h1>Compound Interest Calculator</h1>
+  <body style="background-color: #31b535;"><    
+    <h1>Compound Interest Calculator</h1>   
 
     <div id="inputs">
+      <h3>Inputs</h3>
       <table>
         <tr>
           <td>Current Savings</td>
-          <td class="input">$ <input type="number"></td>
+          <td class="input" id="current">$ <input type="number"></td>
         </tr>
 
         <tr>
           <td>Annual Adition</td>
-          <td class="input">$ <input type="number"></td>
+          <td class="input" id="add">$ <input type="number"></td>
         </tr>
 
         <tr>
           <td>Years to Grow</td>
-          <td class="input smallIn"><input type="number" class="smallIn"></td>
+          <td class="input smallIn" id="years"><input type="number" class="smallIn"></td>
         </tr>
 
         <tr>
           <td>Interest Rate</td>
-          <td class="input smallIn"><input type="number" class="smallIn"> %</td>
+          <td class="input smallIn" id="rate"><input type="number" class="smallIn"> %</td>
         </tr>
       </table>
 
